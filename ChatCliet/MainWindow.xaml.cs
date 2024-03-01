@@ -43,7 +43,6 @@ namespace ChatCliet
         }
         void DisconnectUser()
         {
-
             if (isConnected)
             {
                 client.Disconnect(ID);
@@ -80,5 +79,6 @@ namespace ChatCliet
                 client?.SendMsg(tbMessage.Text, ID);
             }
         }
+
     }
 }
